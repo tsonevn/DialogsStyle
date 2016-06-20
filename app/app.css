@@ -1,0 +1,38 @@
+﻿.title {
+    font-size: 30;
+    horizontal-align: center;
+    margin: 20;
+}
+
+button {
+    font-size: 42;
+    horizontal-align: center;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    horizontal-align: center;
+    margin: 0 20;
+    text-align: center;
+}
+.layout Button{
+    color:red;
+}
+.layout Label{
+    color:green;
+}
+
+.modal-action-bar{
+    background-color:red;
+}
+
+.modal-action-bar Button {
+  /*color:#fff;*/
+  color:yellow;
+}
+
+.modal-action-bar Label {
+  /*color:#fff;*/
+  color:black;
+}

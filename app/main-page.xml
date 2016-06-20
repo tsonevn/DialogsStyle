@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+
+  <GridLayout rows="auto *" columns="*">
+    <StackLayout row='0' col='0' height="50%" class="layout">
+        <Label text="Tap the button" class="title"/>
+        <Button text="TAP" tap="onTapButton" />
+        <Label text="{{ message }}" class="message" textWrap="true"/>
+      </StackLayout>
+      <StackLayout class="modal-action-bar" row='1' col='0' height="50%">
+          <Label text="sample text" textWrap="true" />
+          <Button text="TAP2" tap="{{ onTap }}" />
+      </StackLayout>
+  </GridLayout>
+  
+</Page>
